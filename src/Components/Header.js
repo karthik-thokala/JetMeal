@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import { useState } from "react";
 import food from './banner.jpg'
-import logo from './Screenshot (362).png';
+
 import {Link} from "react-router";
 import bg1 from './BG/477.jpg';
 import bg2 from './BG/1339.jpg';
@@ -64,7 +64,7 @@ const Header = () => {
     <li className="hover:underline cursor-pointer"> <Link to="/">Home</Link></li>
     <li className="hover:underline cursor-pointer" ><Link to="/about">About us</Link></li>
     <li className="hover:underline cursor-pointer" onClick={scrollToFooter}>Contact us</li>
-    <li className="hover:underline cursor-pointer"><Link to="/cart">Cart</Link> </li>
+    
     <button
       className="rounded-2xl text-white font-semibold border border-white hover:bg-white hover:text-black transition"
       onClick={() =>

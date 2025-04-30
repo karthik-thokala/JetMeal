@@ -8,11 +8,11 @@ const Footer = () => {
     const SendEmail =(e)=>{
         e.preventDefault();
         emailjs.sendForm(
-            "service_xwiwy4d",   
-            "template_dj32h8w",  
-            form.current,
-            "JYsEMa57DHwhZ0rXE"    
-          )
+          process.env.REACT_APP_EMAILJS_SERVICE_ID,
+          process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+          form.current,
+          process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        )
           .then(
             (result) => {
               alert("Thank you! Your feedback has been sent successfully.");
@@ -38,7 +38,7 @@ const Footer = () => {
         <a href="/" className="hover:text-orange-500">Home</a>
         <a href="about" className="hover:text-orange-500">About</a>
         
-        <a href="cart" className="hover:text-orange-500">Cart</a>
+        
       </div>
 
      
