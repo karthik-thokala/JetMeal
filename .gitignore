@@ -1,9 +1,0 @@
-# Cache and build folders
-node_modules/
-dist/
-.parcel-cache/
-parcel-cache/
-
-# Environment
-.env
-
