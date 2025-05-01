@@ -1,14 +1,9 @@
-# Dependency directories
+# Cache and build folders
 node_modules/
-.parcel-cache/
-
-# Build output
 dist/
+.parcel-cache/
+parcel-cache/
 
-# Environment variables
+# Environment
 .env
-
-# System files
-.DS_Store
-Thumbs.db
 
