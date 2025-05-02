@@ -1,9 +1,13 @@
-# Cache and build folders
+# Node modules
 node_modules/
-dist/
-.parcel-cache/
-parcel-cache/
 
-# Environment
+# Build output
+dist/
+
+# Parcel cache
+.parcel-cache/
+
+# Environment variables
 .env
+
 
