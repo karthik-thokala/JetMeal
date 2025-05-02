@@ -1,8 +1,11 @@
 {
+   "homepage": "https://github.com/karthik-thokala/JetMeal",
   "name": "namaste-react",
   "version": "1.0.0",
   "description": "this is namaste react by Karthik",
   "scripts": {
+      "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest"
