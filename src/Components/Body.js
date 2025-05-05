@@ -7,9 +7,12 @@ import HData from './Hyderabad.json';
 import Mdata from './Mumbai.json';
 import Bdata from './Bengaluru.json';
 import Cdata from './Chennai.json';
+import { useNavigate } from "react-router";
 import Ddata from './Delhi.json';
 import Background from './Background.jpg';
 const Body = () =>{
+  const navigate = useNavigate();
+
     const [searchtext ,setsearchtext] = useState("");
     const [selectedCity, setSelectedCity] = useState("Hyderabad");
     const [showTopRated, setShowTopRated] = useState(false);
@@ -75,6 +78,12 @@ const Body = () =>{
       >
         {showTopRated ? "Show All" : "Top Rated Restaurants"}
       </button>
+      <button
+  onClick={() => navigate("/meals")}
+  className="ml-auto px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600"
+>
+  🍽️ Meal Suggestions
+</button>
     </div>
   </div>
   <div className="res-container px-6 max-w-8xl mx-auto">
