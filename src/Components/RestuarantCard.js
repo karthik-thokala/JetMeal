@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import del from './delivery-bike.png';
+
 import { useNavigate } from 'react-router';
 
 const  RestuarantCard = (props) =>{
@@ -18,8 +18,10 @@ const  RestuarantCard = (props) =>{
             {props.cusinie}</p>
             <h4>⭐{ props.rating}</h4>
             <h4 className="flex items-center">
-            <img className="w-6 h-6 mr-2" src={del} />
+            <img className="w-6 h-6 mr-2" src='https://i.postimg.cc/xCVdnLYD/delivery-bike.png' />
+            
             {props.mins}</h4>
+           
 
         </div>
     )

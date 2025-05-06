@@ -1,6 +1,6 @@
 import React ,{useRef} from 'react'
 import emailjs from "@emailjs/browser";
-import logo from './JetMEal.png'
+
 const Footer = () => {
 
 
@@ -30,7 +30,7 @@ const Footer = () => {
       <div className="text-2xl font-semibold">
       <h3 className=''>JetMeal</h3>
       © 2025 JetMeal Limited
-      <img src={logo} alt="Logo" className="w-[350px] h-auto rounded-full object-cover p-4" />
+      <img src='https://i.postimg.cc/sgZyx1TV/JetMEal.png' alt="Logo" className="w-[350px] h-auto rounded-full object-cover p-4" />
       </div>
 
       

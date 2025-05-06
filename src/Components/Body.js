@@ -9,7 +9,7 @@ import Bdata from './Bengaluru.json';
 import Cdata from './Chennai.json';
 import { useNavigate } from "react-router";
 import Ddata from './Delhi.json';
-import Background from './Background.jpg';
+const Background = 'https://i.postimg.cc/T1wv6Pyv/Background.jpg';
 const Body = () =>{
   const navigate = useNavigate();
 
