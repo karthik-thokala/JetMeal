@@ -1,4 +1,5 @@
 **🍱 JetMeal – Food Ordering Web App with AI Meal Suggestions**
+
 JetMeal is a modern and visually rich food ordering web application built using ReactJS and Tailwind CSS. It mimics real-life food delivery platforms and includes an innovative AI-based Meal Suggestion feature that asks users about their location and meal time to suggest food options dynamically.
 
 🚀 **Features**
@@ -36,7 +37,7 @@ JetMeal is a modern and visually rich food ordering web application built using 
 
 Redirects to a new page with a form:
 
-Asks: *"What time will you eat?"*
+Asks: *What do you feel like eating for lunch?*
 
 *"Enter your location".*
 
