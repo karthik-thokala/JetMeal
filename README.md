@@ -1,62 +1,85 @@
-**🍱 JetMeal – Food Ordering Web App with AI Meal Suggestions**
+# 🍱 JetMeal – Food Ordering Web App with AI Meal Suggestions
 
-JetMeal is a modern and visually rich food ordering web application built using ReactJS and Tailwind CSS. It mimics real-life food delivery platforms and includes an innovative AI-based Meal Suggestion feature that asks users about their location and meal time to suggest food options dynamically.
+**JetMeal** is a fully responsive and modern food ordering web application built using **ReactJS** and **Tailwind CSS**. It simulates a real-world food delivery experience with dynamic UI features, restaurant listings based on city selection, and an innovative **AI Meal Suggestion** tool that personalizes meal options based on the user's location and time of day.
 
-🚀 **Features**
-🔥 **Dynamic Banner** – Eye-catching images changing every few seconds.
+---
 
-🔍 **Search Functionality** – Search your favorite restaurants quickly.
+## 🚀 Features
 
-🏙️ **City Selection Dropdown** – Choose your city and get tailored restaurant listings.
+### 🎞️ Dynamic Banner
+- Stunning and auto-changing food images on the homepage.
+- Creates an engaging experience for the user.
 
-🍽️ **Restaurant Cards** – Shows:
+### 🔍 Search Functionality
+- Allows users to quickly search for their favorite restaurants.
 
--Restaurant name
+### 🏙️ City Selection Dropdown
+- Users can select a city to view restaurant listings specific to that city.
 
--Ratings
+### 🍽️ Restaurant Cards (based on hardcoded JSON)
+Each restaurant card displays:
+- Restaurant Name
+- Ratings
+- Cuisine Types
+- Estimated Delivery Time (e.g., "30 mins")
 
--Cuisine types
+### 📦 Data Structure
+- Restaurant details are fetched from a hardcoded **JSON file** for simulation purposes.
 
--Estimated delivery time
+---
 
-**📦 Hardcoded JSON-based Data** – Simulates a real restaurant database.
+## 📄 Additional Pages
 
-**📄 About Page** – Describes the app, goals, and features.
+### 🧾 About Page
+- Provides information about the purpose, features, and goals of JetMeal.
 
-**📬 Contact Us Page** – Includes a functional **feedback form**:
+### 📬 Contact Us Page
+- Includes a working **feedback form** with:
+  - Name
+  - Email
+  - Feedback Message
+- Integrates with **EmailJS** to send responses directly to your email.
 
--Name
+---
 
--Email
+## 🤖 AI Meal Suggestions (Bonus Feature)
+- A separate AI-integrated page.
+- Asks the user:
+  - **"What do you want to eat for lunch/dinner?"**
+  - **"Enter your location"**
+- Uses **OpenRouter.ai** and models like `deepseek-coder`, `r1`, etc.
+- Returns meal suggestions **based on user location and current time**.
+- Responds within a few seconds to enhance interactivity.
 
--Feedback
+---
 
--Email is sent via **email.js** integration.
+## 🛠️ Tech Stack
 
-**🤖 AI Meal Suggestions:**
+| Tech             | Description                        |
+|------------------|------------------------------------|
+| **ReactJS**      | Frontend Framework                 |
+| **Tailwind CSS** | Utility-First CSS Framework        |
+| **EmailJS**      | For sending feedback form responses via email |
+| **OpenRouter.ai**| AI-based Meal Suggestion API       |
+| **Vercel**       | Hosting platform                   |
 
-Redirects to a new page with a form:
+---
 
-Asks: *What do you feel like eating for lunch?*
+## 🌐 Live Demo
 
-*"Enter your location".*
+🔗 [View Deployed Website on Vercel](https://your-vercel-link.com)
 
-Suggests meals based on time & location.
+---
 
-Receives response within seconds.
+## 📸 Screenshots (Optional but Recommended)
 
-**🛠️ Tech Stack**
-**Frontend**: ReactJS
+_Add these screenshots to the README or GitHub repo:_
+- Homepage with dynamic banner
+- City dropdown and restaurant cards
+- Feedback form (Contact Us)
+- AI meal suggestion form page
 
-**Styling**: Tailwind CSS
+---
 
-**Email Integration**: EmailJS
+## 📁 Folder Structure (Simplified)
 
-**Hosting**: Vercel 
-
-**📸 Screenshots**
-Add some screenshots of your app UI here (optional but recommended)
-e.g. Homepage, Restaurant Cards, Feedback Form, AI Meal Suggestion Page
-
-**🌐 Live Demo**
-🔗 View Live App
