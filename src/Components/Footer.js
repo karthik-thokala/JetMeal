@@ -36,7 +36,7 @@ const Footer = () => {
       
       <div className="flex flex-col space-y-4 text-3xl">
         <a href="/" className="hover:text-orange-500">Home</a>
-        <a href="about" className="hover:text-orange-500">About</a>
+        <a href="/about" className="hover:text-orange-500">About</a>
         
         
       </div>
