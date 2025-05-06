@@ -67,19 +67,21 @@ Each restaurant card displays:
 
 ## 🌐 Live Demo
 
-🔗 [View Deployed Website on Vercel](https://your-vercel-link.com)
+🔗 [View Deployed Website on Vercel](https://jet-meal-wlap.vercel.app/)
 
 ---
 
-## 📸 Screenshots (Optional but Recommended)
+## 📸 Screenshots 
 
 _Add these screenshots to the README or GitHub repo:_
 - Homepage with dynamic banner
+- ![Image](https://github.com/user-attachments/assets/8c441fe3-5db1-468b-811c-efed56f0cb27)
 - City dropdown and restaurant cards
+- ![Image](https://github.com/user-attachments/assets/684c6a37-5e41-4730-aa42-b1f5eeaf6833)
 - Feedback form (Contact Us)
+- ![Image](https://github.com/user-attachments/assets/52eb3e19-c02e-40dd-bcaf-d41121fab7bf)
 - AI meal suggestion form page
+- ![Image](https://github.com/user-attachments/assets/bddc797a-672f-43c6-8585-987addee56ac)
 
----
 
-## 📁 Folder Structure (Simplified)
 
